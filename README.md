@@ -9,7 +9,7 @@ Site tipo landing page para divulgar o jogo Let's Go, Pikachu. O objetivo é col
 
 ---
 
-##Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - HTML
 - CSS
