@@ -126,3 +126,80 @@ footer{
     transform: translate(-50%,-50%);
     height: 75vh;
 }
+
+/* TABLET */
+@media (max-width:960px) {
+    body {
+        padding-inline: 32px;
+        padding-bottom: 32px;
+    }
+    main {
+        justify-content: space-between;
+    }
+
+    
+    footer {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+    }
+
+    .container div {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        
+    }
+
+    .container p {
+        width: 70%;
+    }
+
+
+    .action {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pikachu-image {
+        height: 50vh;
+    }
+
+
+}
+
+/* CELULAR */
+@media (max-width:640px){
+    header div {
+        display: none;
+    }
+
+    body {
+        justify-content: center;
+    }
+
+    .title span {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .container p {
+        display: none;
+    }
+
+    .container h2 {
+        font-size: 36px;
+    }
+
+    .action a {
+        width: 100%;
+        font-size: 50px;
+    }
+}
